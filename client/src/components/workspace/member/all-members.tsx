@@ -76,12 +76,12 @@ const AllMembers = () => {
         <Loader className="w-8 h-8 animate-spin place-self-center flex" />
       ) : null}
 
-      {members?.map((member) => {
+      {members?.map((member, index) => {
         const name = member.userId?.name;
         const initials = getAvatarFallbackText(name);
         const avatarColor = getAvatarColor(name);
         return (
-          <div className="flex items-center justify-between space-x-4">
+          <div key={index} className="flex items-center justify-between space-x-4">
             <div className="flex items-center space-x-4">
               <Avatar className="h-8 w-8">
                 <AvatarImage

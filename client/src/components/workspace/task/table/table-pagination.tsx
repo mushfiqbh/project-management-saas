@@ -81,7 +81,6 @@ export function DataTablePagination<TData>({
           </div>
 
           {/* Pagination Controls */}
-          <div className="flex items-center space-x-2">
             <Button
               variant="outline"
               className="hidden h-8 w-8 p-0 lg:flex"
@@ -119,7 +118,6 @@ export function DataTablePagination<TData>({
               <span className="sr-only">Go to last page</span>
               <ChevronsRight />
             </Button>
-          </div>
         </div>
       </div>
     </div>

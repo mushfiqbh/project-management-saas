@@ -178,9 +178,10 @@ const SignIn = () => {
               </Form>
             </CardContent>
           </Card>
-          <div className="text-balance text-center text-xs text-muted-foreground [&_a]:underline [&_a]:underline-offset-4 [&_a]:hover:text-primary  ">
-            By clicking continue, you agree to our{" "}
-            <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+          <div className="text-balance text-center text-xs text-muted-foreground">
+            By clicking continue, you agree to our 
+            <a href="#" className="underline underline-offset-4 hover:text-primary">Terms of Service</a> and 
+            <a href="#" className="underline underline-offset-4 hover:text-primary">Privacy Policy</a>.
           </div>
         </div>
       </div>
