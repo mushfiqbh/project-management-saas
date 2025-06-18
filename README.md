@@ -1,4 +1,4 @@
-# 🌟 Advanced MERN B2B Teams Project Management SaaS - *TeamSync*  
+# 🌟 Project Management SaaS  
 
 ## 🎥 Watch the Full Video on YouTube  
 **[Subscribe to the Channel](https://tinyurl.com/subcribe-to-techwithEmma)** to stay updated with more exciting projects and tutorials!  
